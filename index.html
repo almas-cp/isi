@@ -7,23 +7,22 @@
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; }
         pre { background: #f4f4f4; padding: 10px; border-radius: 5px; }
-        code { font-family: Consolas, monospace; color: green; }
     </style>
 </head>
 <body>
     <h1>PowerShell Code Snippets</h1>
     
-    <pre><code>Write-Host "Hello, this is a test script!" -ForegroundColor Green</code></pre>
-    <pre><code>Get-Process | Select-Object -First 10</code></pre>
-    <pre><code>Get-Service | Where-Object {$_.Status -eq "Running"}</code></pre>
-    <pre><code>Get-Date</code></pre>
-    <pre><code>Get-ChildItem -Path C:\ -Recurse -ErrorAction SilentlyContinue</code></pre>
-    <pre><code>Test-Connection -ComputerName google.com -Count 4</code></pre>
-    <pre><code>$env:USERNAME</code></pre>
-    <pre><code>Get-WmiObject Win32_OperatingSystem</code></pre>
-    <pre><code>New-Item -ItemType Directory -Path C:\TestFolder</code></pre>
-    <pre><code>Remove-Item -Path C:\TestFolder -Recurse -Force</code></pre>
-    <pre><code>Start-Process notepad.exe</code></pre>
+    <pre>Write-Host "Hello, this is a test script!" -ForegroundColor Green</pre>
+    <pre>Get-Process | Select-Object -First 10</pre>
+    <pre>Get-Service | Where-Object {$_.Status -eq "Running"}</pre>
+    <pre>Get-Date</pre>
+    <pre>Get-ChildItem -Path C:\ -Recurse -ErrorAction SilentlyContinue</pre>
+    <pre>Test-Connection -ComputerName google.com -Count 4</pre>
+    <pre>$env:USERNAME</pre>
+    <pre>Get-WmiObject Win32_OperatingSystem</pre>
+    <pre>New-Item -ItemType Directory -Path C:\TestFolder</pre>
+    <pre>Remove-Item -Path C:\TestFolder -Recurse -Force</pre>
+    <pre>Start-Process notepad.exe</pre>
     
 </body>
 </html>
