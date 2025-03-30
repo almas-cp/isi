@@ -1,1 +1,0 @@
-Write-Host "Hello, this is a test script!" -ForegroundColor Green
